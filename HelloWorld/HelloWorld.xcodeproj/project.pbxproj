@@ -380,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +459,7 @@
 				C64FCC5A19F423B900860D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C64FCC5B19F423B900860D20 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +468,7 @@
 				C64FCC5D19F423B900860D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
